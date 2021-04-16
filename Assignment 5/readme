@@ -1,0 +1,36 @@
+To run:
+	- Run command "prolog"
+	- Then Run, "consult('root.pl')" for Question 1 and "consult('sublist.pl') for Question 2"
+	- Run testcases
+
+
+For Question 1
+
+1) root(4.00, Result, 0.001).
+Expected Answer: Result = 2.0 
+
+2) root(13456, Result, 0.00001).
+Expected Answer: Result = 116.00000000000011
+
+3) root(456, Result, 0.0002).
+Expected Answer: Result = 21.354156505600777 
+
+4)root(257, Result, 0.001).
+Expected Answer: Result = 16.031222965591635
+
+5) root(8987, Result, 0.00005).
+Expected Answer: Result = 94.79978910767969
+
+
+For Question 2
+1) sublist([a,b],[a,e,b,d,s,e]).
+Expected Answer: Yes
+2) sublist([a,b],[a,e,e,f]).
+Expected Answer: No
+3) sublist([a,b],[b,a]).
+Expected Answer: No
+4) sublist([],[a,e,e,f]).
+Expected Answer: Yes
+5) sublist([a],[]).
+Expected Answer: No
+
